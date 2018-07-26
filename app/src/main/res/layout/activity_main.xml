@@ -5,7 +5,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:padding="10dp">
 
 
     <Button
@@ -14,4 +15,17 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnShowToast" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
             android:layout_marginTop="65dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Message"
+            android:ems="10"
+            android:id="@+id/etUserMessage" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="161dp"/>
+    <Button
+            android:text="Send data to next activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSendMsgToNextActivity" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="234dp"/>
 </RelativeLayout>
